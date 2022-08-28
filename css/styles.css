@@ -1,0 +1,120 @@
+#title{
+    background-color: pink;
+    position: relative;
+    
+
+
+}
+body{
+    font-family: "Montserrat-Black";
+    /* position: absolute; */
+
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    padding-left: 20px; 
+ }
+
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: 1.5; 
+    color: white;
+    opacity: 1;
+}
+
+.dog{
+    /* margin-left: 80px; */
+    width: 60%;
+    /* height: 70%; */
+    /* position: absolute; */
+    /* z-index: 0; */
+}
+#features{
+    margin: 60px auto;
+    text-align: center;
+    background-color: white;
+    /* position: relative;
+    z-index: 1; */
+    
+
+}
+.dog2{
+    width: 120px;
+    margin-bottom: 40px;
+    border-radius: 100%;
+}
+
+.lady{
+    width: 120px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+}
+.btn{
+    margin-top: 40px;
+}
+ 
+#testimonials {
+    background-color: pink;
+    text-align: center;
+    padding: 20px 150px;
+    
+}
+
+.carousel-item{
+    padding: 20px 80px;
+}
+#cta{
+    background-color: pink;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+}
+
+#press {
+    background-color: pink;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+h2{
+    font-family: "Montserrat-Black";
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: 1.5; 
+    color: white;
+}
+#pricing{
+    padding: 0px 60px;
+}
+@media (max-width:900px) {
+
+    #title{
+        text-align: center;
+    }
+    h1{
+        font-family: "Montserrat-Black";
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 1.5; 
+    color: white;    
+    }
+    h2{
+        font-family: "Montserrat-Black";
+        font-size: 2.5rem;
+        font-weight: bolder;
+        line-height: 1.5; 
+        color: white;   
+    }
+    #testimonials {
+        background-color: pink;
+        text-align: center;
+        padding: 20px 10px;
+        
+    }
+} 
